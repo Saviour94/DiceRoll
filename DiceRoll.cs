@@ -46,6 +46,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("-----------------------");
         Console.WriteLine("Welcome to Dice Roller!");
         Console.WriteLine("-----------------------");
 
@@ -53,6 +54,6 @@ class Program
 
         int total = game.DiceRoll();
 
-        Console.WriteLine($"You rolled: {total}");
+        Console.WriteLine($"You rolled a total of: {total}");
     }
 }
